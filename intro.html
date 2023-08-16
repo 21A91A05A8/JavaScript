@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>Java Script Introduction</h1>
+	<!-- <script type="text/javascript">
+		var a=10;
+		document.write(a);
+	</script> -->
+	<!-- <script>
+		var b=20;
+		alert(b);
+		document.write("Welcome to JavaScript<br>");
+		document.write("<br>b value : ",b);
+	</script> -->
+	<!-- <script type="text/javascript" src="introexter.js"></script> -->
+	<script>
+		// var name='vyshnavi';
+		// document.write(name.length+"<br>");
+		// name+=' lalitha'
+		// document.write(name.length);
+		// document.write(name);
+		// document.write(typeof(name));
+
+
+		// var g=true;
+		// document.write(typeof(g));
+
+		// var arr=['abc',123,true];
+		// document.write(typeof(arr));
+		// document.write(arr[1]);
+		// document.write(arr);
+
+
+		// var obj={'name':'hari',
+		// 	'rollno':'21a91a05a8',
+		//      'college':'aec',
+		//       'branch':'cse'};
+		// console.log(obj.name);
+		// console.log(obj.name+" "+obj.rollno+" "+obj.college+" "+obj.branch);
+		// document.write(obj.name+" "+obj.rollno+" "+obj.college+" "+obj.branch);
+		// document.write(obj);
+		// console.log(obj);
+
+        var i;
+		var obj=[{'name':'hari',
+		 	'rollno':'21a91a05a8',
+		      'college':'aec',
+		       'branch':'cse'},
+		       {'name':'abc',
+		 	'rollno':'21a91a05b8',
+		      'college':'aect',
+		       'branch':'eee'},
+		       {'name':'efg',
+		 	'rollno':'21a91a05c8',
+		      'college':'aec',
+		       'branch':'ece'},
+		       {'name':'def',
+		 	'rollno':'21a91a05d8',
+		      'college':'aect',
+		       'branch':'civil'},
+		       {'name':'vgf',
+		 	'rollno':'21a91a05e8',
+		      'college':'aec',
+		       'branch':'aiml'}];
+		// console.log(obj);
+		// // console.log(obj[0].name+" "+obj[0].rollno+" "+obj[0].college+" "+obj[0].branch);
+		// for(i=0;i<obj.length;i++)
+		// {
+		// 	console.log(obj[i].name+" "+obj[i].rollno+" "+obj[i].college+" "+obj[i].branch);
+		// 	console.log(obj[i]);
+		// }
+		// for(i=0;i<obj.length;i++)
+		// {
+		// 	document.write(obj[i].name+" "+obj[i].rollno+" "+obj[i].college+" "+obj[i].branch);
+		// 	document.write("<br>");
+		// }
+
+		for(i=0;i<obj.length;i++)
+		{
+			for (key in obj[i])
+			{
+  				document.write(obj[i][key]+" ");
+			}
+			document.write("<br>");
+		}
+
+		// var a=10;
+		// var a='vyshu';
+		// console.log(a);
+	</script>
+</body>
+</html>
